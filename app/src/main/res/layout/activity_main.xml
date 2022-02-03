@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/text_design"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:textColor="#1D3C7A"
+        android:backgroundTint="#31DA4D"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="procesarSeleccionados"
+        />
+
+    <ListView
+        android:id="@+id/listado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C0EDE0"
+        />
+
+</LinearLayout>

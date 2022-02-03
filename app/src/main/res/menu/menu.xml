@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/op1"
+        android:title="Activate_1"
+        >
+    </item>
+
+    <item
+        android:id="@+id/op2"
+        android:title="Checked"
+        >
+    </item>
+
+    <item
+        android:id="@+id/op3"
+        android:title="Multiple_choice"
+        >
+    </item>
+
+    <item
+        android:id="@+id/op4"
+        android:title="Single_choice"
+        >
+    </item>
+
+    <item
+        android:id="@+id/op5"
+        android:title="My_LayOut"
+        >
+    </item>
+
+    <item
+        android:id="@+id/salir"
+        android:title="Salir"
+        android:icon="@drawable/ic_salir_barra"
+        app:showAsAction="always"
+        >
+    </item>
+
+</menu>
