@@ -21,6 +21,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    
 
     // Referencias a ListView y al adaptador
 
@@ -101,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
         productos.add("Zanahoria");
         productos.add("Flan");
         productos.add("Mermelada");
+        productos.add("Naranjas"); //realizando cambios,  saludos RSZM20 -jasx22
 
     }
 
